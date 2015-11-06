@@ -1,0 +1,529 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AD_ADJUST_L	main/menu.h	/^int AD_ADJUST_L;			\/\/ 灰度左偏置$/;"	v
+AD_ADJUST_L_ADD	main/menu.h	22;"	d
+AD_ADJUST_R	main/menu.h	/^int AD_ADJUST_R;			\/\/ 灰度右偏置$/;"	v
+AD_ADJUST_R_ADD	main/menu.h	23;"	d
+AD_BLACK	main/menu.h	/^int AD_BLACK;				\/\/ 黑色区域灰度$/;"	v
+AD_BLACK_ADD	main/menu.h	43;"	d
+AD_CHECK_IO	main/menu.h	12;"	d
+AD_F	main/update.h	52;"	d
+AD_L	main/update.h	53;"	d
+AD_MAXGAP	main/menu.h	/^int AD_MAXGAP;				\/\/ 踏入红色灰度突变 $/;"	v
+AD_MAXGAP_ADD	main/menu.h	18;"	d
+AD_R	main/update.h	54;"	d
+AD_WHITE	main/menu.h	/^int AD_WHITE;				\/\/ 白色区域灰度$/;"	v
+AD_WHITE_ADD	main/menu.h	42;"	d
+AD_WU	main/menu.h	/^int AD_WU;					\/\/ 白色武字的灰度值$/;"	v
+AD_WU_ADD	main/menu.h	17;"	d
+ASMFLAGS	default/makefile	/^ASMFLAGS = $(COMMON)$/;"	m
+ATTACKGEAR1	main/menu.h	/^int ATTACKGEAR1;			\/\/ 1档$/;"	v
+ATTACKGEAR1_ADD	main/menu.h	32;"	d
+ATTACKGEAR2	main/menu.h	/^int ATTACKGEAR2;			\/\/ 2档$/;"	v
+ATTACKGEAR2_ADD	main/menu.h	31;"	d
+ATTACKGEAR3	main/menu.h	/^int ATTACKGEAR3;			\/\/ 3档	$/;"	v
+ATTACKGEAR3_ADD	main/menu.h	30;"	d
+ATTACKGEAR4	main/menu.h	/^int ATTACKGEAR4;			\/\/ 4档$/;"	v
+ATTACKGEAR4_ADD	main/menu.h	29;"	d
+ATTACKRATION	main/menu.h	/^int ATTACKRATION;			\/\/ 加减速度$/;"	v
+ATTACKRATION_ADD	main/menu.h	33;"	d
+BACK_EDGE	main/code.h	80;"	d
+BACK_ENEMY	main/code.h	64;"	d
+BACK_MIDDLE	main/code.h	51;"	d
+BALE_EDGE	main/code.h	87;"	d
+BALE_ENEMY	main/code.h	70;"	d
+BALE_MIDDLE	main/code.h	54;"	d
+BALE_RING	main/code.h	90;"	d
+BARI_EDGE	main/code.h	86;"	d
+BARI_ENEMY	main/code.h	69;"	d
+BARI_MIDDLE	main/code.h	55;"	d
+BARI_RING	main/code.h	91;"	d
+BOOLEAN	drive/servo.h	/^typedef unsigned char BOOLEAN;$/;"	t
+CASE_BACK_ENEMY	main/fight.h	36;"	d
+CASE_BALE_ENEMY	main/fight.h	58;"	d
+CASE_BARI_ENEMY	main/fight.h	55;"	d
+CASE_CORNER	main/fight.h	22;"	d
+CASE_FACE_ENEMY	main/fight.h	33;"	d
+CASE_FRLE_ENEMY	main/fight.h	52;"	d
+CASE_FRRI_ENEMY	main/fight.h	49;"	d
+CASE_LEFT_ENEMY	main/fight.h	39;"	d
+CASE_RIGHT_ENEMY	main/fight.h	44;"	d
+CASE_TRACK0	main/fight.h	7;"	d
+CASE_TRACK1	main/fight.h	8;"	d
+CASE_TRACK2	main/fight.h	15;"	d
+CC	default/makefile	/^CC = avr-gcc.exe$/;"	m
+CFLAGS	default/makefile	/^CFLAGS = $(COMMON)$/;"	m
+CLE_0	drive/uart.h	24;"	d
+CLE_0	main/init.h	5;"	d
+COMMON	default/makefile	/^COMMON = -mmcu=$(MCU)$/;"	m
+CORNERRATION	main/menu.h	/^int CORNERRATION;			\/\/ 角落占半径比$/;"	v
+CORNERRATION_ADD	main/menu.h	44;"	d
+CORNER_TRACK2_STRI	main/code.h	20;"	d
+CORNER_TRACK2_SiL	main/code.h	38;"	d
+CORNER_TRACK2_SiR	main/code.h	29;"	d
+CRC_checkout	main/comn.c	/^unsigned char CRC_checkout(unsigned char *data, int length) $/;"	f
+CRC_table	main/comn.c	/^unsigned short CRC_table[256]={$/;"	v
+EEP_R	main/menu.h	9;"	d
+EEP_W	main/menu.h	10;"	d
+FACE_EDGE	main/code.h	81;"	d
+FACE_ENEMY	main/code.h	63;"	d
+FACE_MIDDLE	main/code.h	50;"	d
+FEED_DOG	drive/watch_dog.h	7;"	d
+FRIEND	main/comn.h	/^struct FRIEND $/;"	s
+FRLE_EDGE	main/code.h	85;"	d
+FRLE_ENEMY	main/code.h	68;"	d
+FRLE_RING	main/code.h	88;"	d
+FRRI_EDGE	main/code.h	84;"	d
+FRRI_ENEMY	main/code.h	67;"	d
+FRRI_RING	main/code.h	89;"	d
+GPIO0_BIT	drive/Gpio.h	54;"	d
+GPIO0_DDR	drive/Gpio.h	50;"	d
+GPIO0_DDR_BIT	drive/Gpio.h	51;"	d
+GPIO0_PIN	drive/Gpio.h	52;"	d
+GPIO0_PIN_BIT	drive/Gpio.h	53;"	d
+GPIO0_PORT	drive/Gpio.h	48;"	d
+GPIO0_PORT_BIT	drive/Gpio.h	49;"	d
+GPIO10_BIT	drive/Gpio.h	128;"	d
+GPIO10_DDR	drive/Gpio.h	124;"	d
+GPIO10_DDR_BIT	drive/Gpio.h	125;"	d
+GPIO10_PIN	drive/Gpio.h	126;"	d
+GPIO10_PIN_BIT	drive/Gpio.h	127;"	d
+GPIO10_PORT	drive/Gpio.h	122;"	d
+GPIO10_PORT_BIT	drive/Gpio.h	123;"	d
+GPIO11_BIT	drive/Gpio.h	112;"	d
+GPIO11_DDR	drive/Gpio.h	108;"	d
+GPIO11_DDR_BIT	drive/Gpio.h	109;"	d
+GPIO11_PIN	drive/Gpio.h	110;"	d
+GPIO11_PIN_BIT	drive/Gpio.h	111;"	d
+GPIO11_PORT	drive/Gpio.h	106;"	d
+GPIO11_PORT_BIT	drive/Gpio.h	107;"	d
+GPIO1_BIT	drive/Gpio.h	46;"	d
+GPIO1_DDR	drive/Gpio.h	42;"	d
+GPIO1_DDR_BIT	drive/Gpio.h	43;"	d
+GPIO1_PIN	drive/Gpio.h	44;"	d
+GPIO1_PIN_BIT	drive/Gpio.h	45;"	d
+GPIO1_PORT	drive/Gpio.h	40;"	d
+GPIO1_PORT_BIT	drive/Gpio.h	41;"	d
+GPIO2_BIT	drive/Gpio.h	70;"	d
+GPIO2_DDR	drive/Gpio.h	66;"	d
+GPIO2_DDR_BIT	drive/Gpio.h	67;"	d
+GPIO2_PIN	drive/Gpio.h	68;"	d
+GPIO2_PIN_BIT	drive/Gpio.h	69;"	d
+GPIO2_PORT	drive/Gpio.h	64;"	d
+GPIO2_PORT_BIT	drive/Gpio.h	65;"	d
+GPIO3_BIT	drive/Gpio.h	62;"	d
+GPIO3_DDR	drive/Gpio.h	58;"	d
+GPIO3_DDR_BIT	drive/Gpio.h	59;"	d
+GPIO3_PIN	drive/Gpio.h	60;"	d
+GPIO3_PIN_BIT	drive/Gpio.h	61;"	d
+GPIO3_PORT	drive/Gpio.h	56;"	d
+GPIO3_PORT_BIT	drive/Gpio.h	57;"	d
+GPIO4_BIT	drive/Gpio.h	87;"	d
+GPIO4_DDR	drive/Gpio.h	83;"	d
+GPIO4_DDR_BIT	drive/Gpio.h	84;"	d
+GPIO4_PIN	drive/Gpio.h	85;"	d
+GPIO4_PIN_BIT	drive/Gpio.h	86;"	d
+GPIO4_PORT	drive/Gpio.h	81;"	d
+GPIO4_PORT_BIT	drive/Gpio.h	82;"	d
+GPIO5_BIT	drive/Gpio.h	79;"	d
+GPIO5_DDR	drive/Gpio.h	75;"	d
+GPIO5_DDR_BIT	drive/Gpio.h	76;"	d
+GPIO5_PIN	drive/Gpio.h	77;"	d
+GPIO5_PIN_BIT	drive/Gpio.h	78;"	d
+GPIO5_PORT	drive/Gpio.h	73;"	d
+GPIO5_PORT_BIT	drive/Gpio.h	74;"	d
+GPIO6_BIT	drive/Gpio.h	103;"	d
+GPIO6_DDR	drive/Gpio.h	99;"	d
+GPIO6_DDR_BIT	drive/Gpio.h	100;"	d
+GPIO6_PIN	drive/Gpio.h	101;"	d
+GPIO6_PIN_BIT	drive/Gpio.h	102;"	d
+GPIO6_PORT	drive/Gpio.h	97;"	d
+GPIO6_PORT_BIT	drive/Gpio.h	98;"	d
+GPIO7_BIT	drive/Gpio.h	95;"	d
+GPIO7_DDR	drive/Gpio.h	91;"	d
+GPIO7_DDR_BIT	drive/Gpio.h	92;"	d
+GPIO7_PIN	drive/Gpio.h	93;"	d
+GPIO7_PIN_BIT	drive/Gpio.h	94;"	d
+GPIO7_PORT	drive/Gpio.h	89;"	d
+GPIO7_PORT_BIT	drive/Gpio.h	90;"	d
+GPIO8_BIT	drive/Gpio.h	120;"	d
+GPIO8_DDR	drive/Gpio.h	116;"	d
+GPIO8_DDR_BIT	drive/Gpio.h	117;"	d
+GPIO8_PIN	drive/Gpio.h	118;"	d
+GPIO8_PIN_BIT	drive/Gpio.h	119;"	d
+GPIO8_PORT	drive/Gpio.h	114;"	d
+GPIO8_PORT_BIT	drive/Gpio.h	115;"	d
+GPIO9_BIT	drive/Gpio.h	136;"	d
+GPIO9_DDR	drive/Gpio.h	132;"	d
+GPIO9_DDR_BIT	drive/Gpio.h	133;"	d
+GPIO9_PIN	drive/Gpio.h	134;"	d
+GPIO9_PIN_BIT	drive/Gpio.h	135;"	d
+GPIO9_PORT	drive/Gpio.h	130;"	d
+GPIO9_PORT_BIT	drive/Gpio.h	131;"	d
+GPIO_H_	drive/Gpio.h	32;"	d
+GetGpio	drive/Gpio.h	269;"	d
+GivePpm	drive/ppm_low.c	/^void GivePpm(void)$/;"	f
+HEX_EEPROM_FLAGS	default/makefile	/^HEX_EEPROM_FLAGS = -j .eeprom$/;"	m
+HEX_FLASH_FLAGS	default/makefile	/^HEX_FLASH_FLAGS = -R .eeprom$/;"	m
+INCLUDES	default/makefile	/^INCLUDES = -I"..\\main" -I"..\\drive" $/;"	m
+INT16U	drive/servo.h	7;"	d
+INT8U	drive/servo.h	6;"	d
+IN_CORNER	main/code.h	13;"	d
+IN_MIDDLE	main/code.h	49;"	d
+IN_TRACK0	main/code.h	10;"	d
+IN_TRACK1	main/code.h	11;"	d
+IN_TRACK2	main/code.h	12;"	d
+IO_B	main/update.h	42;"	d
+IO_BL	main/update.h	43;"	d
+IO_BLD	main/update.h	49;"	d
+IO_BR	main/update.h	44;"	d
+IO_BRD	main/update.h	50;"	d
+IO_F	main/update.h	39;"	d
+IO_FL	main/update.h	40;"	d
+IO_FLD	main/update.h	47;"	d
+IO_FR	main/update.h	41;"	d
+IO_FRD	main/update.h	48;"	d
+IO_L	main/update.h	45;"	d
+IO_R	main/update.h	46;"	d
+InitPpm	drive/ppm.c	/^void InitPpm(INT32U circle_us)$/;"	f
+InitPpm	drive/ppm_low.c	/^void InitPpm(INT32U circle_us)$/;"	f
+L	main/move.c	71;"	d	file:
+LDFLAGS	default/makefile	/^LDFLAGS = $(COMMON)$/;"	m
+LEFT_EDGE	main/code.h	82;"	d
+LEFT_ENEMY	main/code.h	65;"	d
+LEFT_MIDDLE	main/code.h	52;"	d
+LINKONLYOBJECTS	default/makefile	/^LINKONLYOBJECTS = $/;"	m
+MAX_PPM	drive/ppm.c	4;"	d	file:
+MAX_PPM	drive/ppm_low.c	4;"	d	file:
+MCU	default/makefile	/^MCU = atmega128$/;"	m
+MEMORYCYCLE	main/menu.h	/^unsigned int MEMORYCYCLE;		\/\/ 记忆周期（当前无敌人，保留上一次敌人位置信息的时间）$/;"	v
+MEMORYCYCLE_INIT	main/menu.h	/^unsigned int MEMORYCYCLE_INIT;	\/\/ 初始记忆周期，根据实际情况，在此基础上增加或减少记忆周期$/;"	v
+MEMORYCYCLE_INIT_ADD	main/menu.h	40;"	d
+MEMORYCYCLE_PUSH	main/menu.h	/^unsigned int MEMORYCYCLE_PUSH;$/;"	v
+MEMORYCYCLE_PUSH_ADD	main/menu.h	37;"	d
+MODE	main/menu.h	/^unsigned char MODE;			\/\/ 工作模式$/;"	v
+MODE_ADD	main/menu.h	26;"	d
+MSGOUP	main/menu.h	/^unsigned int MSGOUP;$/;"	v
+MSGOUP_ADD	main/menu.h	45;"	d
+NODE_L	main/menu.h	/^int NODE_L;					\/\/ 左轮驱动板node			$/;"	v
+NODE_L_ADD	main/menu.h	27;"	d
+NODE_R	main/menu.h	/^int NODE_R;					\/\/ 右轮驱动板node$/;"	v
+NODE_R_ADD	main/menu.h	28;"	d
+NOP	drive/uart.h	25;"	d
+NO_ENEMY	main/code.h	62;"	d
+OBJECTS	default/makefile	/^OBJECTS = main.o timer.o uart.o servo.o adc.o motor.o fight.o menu.o update.o init.o comn.o $/;"	m
+PPM0_BIT	drive/Gpio.h	154;"	d
+PPM0_DDR	drive/Gpio.h	152;"	d
+PPM0_DDR_BIT	drive/Gpio.h	153;"	d
+PPM0_PIN	drive/Gpio.h	155;"	d
+PPM0_PIN_BIT	drive/Gpio.h	156;"	d
+PPM0_PORT	drive/Gpio.h	150;"	d
+PPM0_PORT_BIT	drive/Gpio.h	151;"	d
+PPM1_BIT	drive/Gpio.h	146;"	d
+PPM1_DDR	drive/Gpio.h	144;"	d
+PPM1_DDR_BIT	drive/Gpio.h	145;"	d
+PPM1_PIN	drive/Gpio.h	147;"	d
+PPM1_PIN_BIT	drive/Gpio.h	148;"	d
+PPM1_PORT	drive/Gpio.h	142;"	d
+PPM1_PORT_BIT	drive/Gpio.h	143;"	d
+PPM2_BIT	drive/Gpio.h	162;"	d
+PPM2_DDR	drive/Gpio.h	160;"	d
+PPM2_DDR_BIT	drive/Gpio.h	161;"	d
+PPM2_PIN	drive/Gpio.h	163;"	d
+PPM2_PIN_BIT	drive/Gpio.h	164;"	d
+PPM2_PORT	drive/Gpio.h	158;"	d
+PPM2_PORT_BIT	drive/Gpio.h	159;"	d
+PPM3_BIT	drive/Gpio.h	170;"	d
+PPM3_DDR	drive/Gpio.h	168;"	d
+PPM3_DDR_BIT	drive/Gpio.h	169;"	d
+PPM3_PIN	drive/Gpio.h	171;"	d
+PPM3_PIN_BIT	drive/Gpio.h	172;"	d
+PPM3_PORT	drive/Gpio.h	166;"	d
+PPM3_PORT_BIT	drive/Gpio.h	167;"	d
+PPM4_BIT	drive/Gpio.h	187;"	d
+PPM4_DDR	drive/Gpio.h	185;"	d
+PPM4_DDR_BIT	drive/Gpio.h	186;"	d
+PPM4_PIN	drive/Gpio.h	188;"	d
+PPM4_PIN_BIT	drive/Gpio.h	189;"	d
+PPM4_PORT	drive/Gpio.h	183;"	d
+PPM4_PORT_BIT	drive/Gpio.h	184;"	d
+PPM5_BIT	drive/Gpio.h	179;"	d
+PPM5_DDR	drive/Gpio.h	177;"	d
+PPM5_DDR_BIT	drive/Gpio.h	178;"	d
+PPM5_PIN	drive/Gpio.h	180;"	d
+PPM5_PIN_BIT	drive/Gpio.h	181;"	d
+PPM5_PORT	drive/Gpio.h	175;"	d
+PPM5_PORT_BIT	drive/Gpio.h	176;"	d
+PPM6_BIT	drive/Gpio.h	203;"	d
+PPM6_DDR	drive/Gpio.h	201;"	d
+PPM6_DDR_BIT	drive/Gpio.h	202;"	d
+PPM6_PIN	drive/Gpio.h	204;"	d
+PPM6_PIN_BIT	drive/Gpio.h	205;"	d
+PPM6_PORT	drive/Gpio.h	199;"	d
+PPM6_PORT_BIT	drive/Gpio.h	200;"	d
+PPM7_BIT	drive/Gpio.h	195;"	d
+PPM7_DDR	drive/Gpio.h	193;"	d
+PPM7_DDR_BIT	drive/Gpio.h	194;"	d
+PPM7_PIN	drive/Gpio.h	196;"	d
+PPM7_PIN_BIT	drive/Gpio.h	197;"	d
+PPM7_PORT	drive/Gpio.h	191;"	d
+PPM7_PORT_BIT	drive/Gpio.h	192;"	d
+PROJECT	default/makefile	/^PROJECT = vehicle$/;"	m
+PUSHCHESSGEAR1	main/move.c	13;"	d	file:
+PUSHCHESSGEAR2	main/move.c	14;"	d	file:
+PUSHCHESSRATION	main/move.c	15;"	d	file:
+QLENGTH	main/comn.c	10;"	d	file:
+QUEUE	main/comn.c	/^struct QUEUE{$/;"	s	file:
+R	main/move.c	70;"	d	file:
+READYSPEEDL	main/menu.h	/^int READYSPEEDL;$/;"	v
+READYSPEEDL_ADD	main/menu.h	24;"	d
+READYSPEEDR	main/menu.h	/^int READYSPEEDR;$/;"	v
+READYSPEEDR_ADD	main/menu.h	25;"	d
+READ_GPIO	drive/Gpio.h	218;"	d
+READ_PRA_MAX	drive/servo.h	12;"	d
+RIGHT_EDGE	main/code.h	83;"	d
+RIGHT_ENEMY	main/code.h	66;"	d
+RIGHT_MIDDLE	main/code.h	53;"	d
+RXC	drive/uart.h	20;"	d
+RXCIE	drive/uart.h	21;"	d
+RXD_EN	drive/servo.h	16;"	d
+RXEN	drive/uart.h	17;"	d
+SAFERATION	main/menu.h	/^int SAFERATION;				\/\/ 安全加速度$/;"	v
+SAFERATION_ADD	main/menu.h	35;"	d
+SAFESPEED	main/menu.h	/^int SAFESPEED;				\/\/ 安全速度$/;"	v
+SAFESPEED_ADD	main/menu.h	34;"	d
+SENSOR	main/update.h	/^struct SENSOR	\/\/传感器返回值变量结构体$/;"	s
+SETTIMER1MS	drive/ppm.c	56;"	d	file:
+SETTIMER1MS	drive/ppm_low.c	56;"	d	file:
+SETTIMER1MSC	drive/ppm.c	57;"	d	file:
+SETTIMER1MSC	drive/ppm_low.c	57;"	d	file:
+SET_1	drive/uart.h	23;"	d
+SET_1	main/init.h	4;"	d
+SIGNAL	drive/ppm.c	/^SIGNAL(SIG_OVERFLOW0)$/;"	f
+SIGNAL	drive/ppm_low.c	/^SIGNAL(SIG_OVERFLOW0)$/;"	f
+SIGNAL	drive/timer.c	/^SIGNAL (TIMER1_OVF_vect)$/;"	f
+SIGNAL	drive/timer.c	/^SIGNAL (TIMER2_OVF_vect)$/;"	f
+SIGNAL	drive/timer.c	/^SIGNAL (TIMER3_OVF_vect)$/;"	f
+SIGNAL	drive/timer.c	/^SIGNAL(TIMER0_OVF_vect)$/;"	f
+SIGNAL	drive/uart.c	/^SIGNAL(SIG_USART1_RECV) {$/;"	f
+SIGNAL	main/fight.c	/^SIGNAL (INT5_vect)$/;"	f
+SIGNAL	main/fight.c	/^SIGNAL (INT6_vect)$/;"	f
+SIGNAL	main/fight.c	/^SIGNAL (INT7_vect)$/;"	f
+SIGNAL	main/fight.c	/^SIGNAL(INT4_vect){$/;"	f
+SPEEDPUSH	main/menu.h	/^unsigned int SPEEDPUSH;$/;"	v
+SPEEDPUSH_ADD	main/menu.h	36;"	d
+SP_OFFSET	drive/ppm_low.c	5;"	d	file:
+SPpm	drive/ppm.c	/^}SPpm;$/;"	t	typeref:struct:__anon2	file:
+SPpm	drive/ppm_low.c	/^}SPpm;$/;"	t	typeref:struct:__anon4	file:
+SPpmState	drive/ppm.c	/^}SPpmState;$/;"	t	typeref:struct:__anon1	file:
+SPpmState	drive/ppm_low.c	/^}SPpmState;$/;"	t	typeref:struct:__anon3	file:
+STATECYCLE	main/menu.h	/^unsigned int STATECYCLE; 		\/\/ 状态周期（传感器刷新间隔）$/;"	v
+STATECYCLE_ADD	main/menu.h	39;"	d
+SetGpio	drive/Gpio.h	223;"	d
+SetMotor	drive/ppm.c	/^void SetMotor(INT8U id,INT16S sp)$/;"	f
+SetMotor	drive/ppm_low.c	/^void SetMotor(INT8U id,INT16S sp)$/;"	f
+SetPpm	drive/ppm.c	/^void SetPpm(int id,INT16U us)$/;"	f
+SetPpm	drive/ppm_low.c	/^void SetPpm(int id,INT16U us)$/;"	f
+SetPpmIO	drive/ppm.c	/^void SetPpmIO(INT8U id,BOOLEAN v)$/;"	f
+SetPpmIO	drive/ppm_low.c	/^void SetPpmIO(INT8U id,BOOLEAN v)$/;"	f
+TARGET	default/makefile	/^TARGET = vehicle.elf$/;"	m
+TOPSPEED	main/menu.h	/^int TOPSPEED;				\/\/ 最大速度$/;"	v
+TOPSPEED_ADD	main/menu.h	38;"	d
+TRACK0_TRACK1_STRI	main/code.h	16;"	d
+TRACK0_TRACK1_SiL	main/code.h	34;"	d
+TRACK0_TRACK1_SiR	main/code.h	25;"	d
+TRACK1_TRACK0_STRI	main/code.h	22;"	d
+TRACK1_TRACK0_SiL	main/code.h	40;"	d
+TRACK1_TRACK0_SiR	main/code.h	31;"	d
+TRACK1_TRACK2_STRI	main/code.h	17;"	d
+TRACK1_TRACK2_SiL	main/code.h	35;"	d
+TRACK1_TRACK2_SiR	main/code.h	26;"	d
+TRACK2_CORNER_STRI	main/code.h	18;"	d
+TRACK2_CORNER_SiL	main/code.h	36;"	d
+TRACK2_CORNER_SiR	main/code.h	27;"	d
+TRACK2_TRACK1_STRI	main/code.h	21;"	d
+TRACK2_TRACK1_SiL	main/code.h	39;"	d
+TRACK2_TRACK1_SiR	main/code.h	30;"	d
+TURNSPEED	main/menu.h	/^int TURNSPEED;				\/\/ 旋转速度$/;"	v
+TURNSPEED_ADD	main/menu.h	41;"	d
+TXD_EN	drive/servo.h	15;"	d
+TXEN	drive/uart.h	18;"	d
+Timer0_Init	drive/timer.c	/^void Timer0_Init()$/;"	f
+Timer1_Init	drive/timer.c	/^void Timer1_Init()$/;"	f
+Timer2_Init	drive/timer.c	/^void Timer2_Init()$/;"	f
+Timer3_Init	drive/timer.c	/^void Timer3_Init()$/;"	f
+TxPacket	drive/servo.c	/^void TxPacket(INT8U ID,INT8U ParameterLength,INT8U *Parameter,INT8U Instruction)$/;"	f
+UART_PACKET_READ	drive/servo.h	17;"	d
+UART_PACKET_WRITE	drive/servo.h	18;"	d
+UCSZ0	drive/uart.h	19;"	d
+UDRE	drive/uart.h	16;"	d
+VEHICLE	main/init.h	/^struct VEHICLE$/;"	s
+WAIT	drive/uart.h	27;"	d
+WAIT_UART0	drive/uart.h	26;"	d
+WRITE_GPIO	drive/Gpio.h	221;"	d
+_CODE_H_	main/code.h	2;"	d
+_COMN_H_	main/comn.h	2;"	d
+_FIGHT_H_	main/fight.h	2;"	d
+_INIT_H	main/init.h	2;"	d
+_MENU_H_	main/menu.h	2;"	d
+_MOTORCTRL_UART_H	drive/motor.h	2;"	d
+_MOVE_H_	main/move.h	8;"	d
+_READ_GPIO	drive/Gpio.h	219;"	d
+_UPDATE_H	main/update.h	2;"	d
+_WRITE_GPIO	drive/Gpio.h	222;"	d
+__INCLUDES_H__	main/INCLUDES.h	6;"	d
+__LHG_MYTIMER_H__	drive/timer.h	2;"	d
+__LHG_MY_UART_H__	drive/uart.h	2;"	d
+__ROBOTIS_ADC_H__	drive/adc.h	2;"	d
+__ROBOTIS_GPIO_H__	drive/robotis_gpio.h	2;"	d
+__ROBOTIS_UART_H__	drive/servo.h	3;"	d
+__WATCH_DOG_H__	drive/watch_dog.h	2;"	d
+ad_f	main/update.h	/^	INT16U ad_f;		\/\/ 前，灰度AD传感器状态值变量$/;"	m	struct:SENSOR
+ad_l	main/update.h	/^	INT16U ad_l;	$/;"	m	struct:SENSOR
+ad_r	main/update.h	/^	INT16U ad_r;$/;"	m	struct:SENSOR
+backToCorner	main/move.c	/^void backToCorner(unsigned char rOl) {$/;"	f
+buf	main/menu.c	/^char buf[6];$/;"	v
+check_sensor	main/update.c	/^void check_sensor(void)$/;"	f
+circle_us	drive/ppm.c	/^	INT16U circle_us;\/\/ppm周期 20ms$/;"	m	struct:__anon2	file:
+circle_us	drive/ppm_low.c	/^	INT16U circle_us;\/\/ppm周期 20ms$/;"	m	struct:__anon4	file:
+count0	drive/timer.h	/^volatile unsigned int count0,flag0;$/;"	v
+count1	drive/timer.h	/^volatile unsigned int count1,flag1;$/;"	v
+count2	drive/timer.h	/^volatile unsigned int count2,flag2;$/;"	v
+count3	drive/timer.h	/^volatile unsigned int count3,flag3;$/;"	v
+data	main/comn.c	/^	unsigned char data[QLENGTH];$/;"	m	struct:QUEUE	file:
+dataPack	main/comn.c	/^unsigned char dataPack[8];$/;"	v
+detectCode	main/comn.h	/^	unsigned char detectCode;$/;"	m	struct:FRIEND
+detectCode	main/update.h	/^	INT8U detectCode;	\/\/ 检测敌人的红外传感器编码$/;"	m	struct:SENSOR
+dir	main/comn.h	/^	unsigned char dir;$/;"	m	struct:FRIEND
+dir	main/init.h	/^	unsigned char dir;				\/\/ 朝向$/;"	m	struct:VEHICLE
+do_CRC	main/comn.c	/^unsigned short do_CRC(unsigned char *data, int length)$/;"	f
+edgeCode	main/update.h	/^	INT8U edgeCode;		\/\/ 边缘红外传感器编码$/;"	m	struct:SENSOR
+edgeDetected	main/fight.c	/^void edgeDetected() {$/;"	f
+eeprom_rOw_par	main/menu.c	/^void eeprom_rOw_par(unsigned char rOw)$/;"	f
+enable_uart1	drive/uart.c	/^void enable_uart1(INT8U c)$/;"	f
+end	main/comn.c	/^	unsigned char end;$/;"	m	struct:QUEUE	file:
+fight	main/fight.c	/^void fight() $/;"	f
+fight_BACK_ENEMY	main/fight.c	/^void fight_BACK_ENEMY()$/;"	f
+fight_BALE_ENEMY	main/fight.c	/^void fight_BALE_ENEMY()$/;"	f
+fight_BARI_ENEMY	main/fight.c	/^void fight_BARI_ENEMY()$/;"	f
+fight_FACE_ENEMY	main/fight.c	/^void fight_FACE_ENEMY()$/;"	f
+fight_FRLE_ENEMY	main/fight.c	/^void fight_FRLE_ENEMY()$/;"	f
+fight_FRRI_ENEMY	main/fight.c	/^void fight_FRRI_ENEMY()$/;"	f
+fight_LEFT_ENEMY	main/fight.c	/^void fight_LEFT_ENEMY()$/;"	f
+fight_RIGHT_ENEMY	main/fight.c	/^void fight_RIGHT_ENEMY()$/;"	f
+flag0	drive/timer.h	/^volatile unsigned int count0,flag0;$/;"	v
+flag1	drive/timer.h	/^volatile unsigned int count1,flag1;$/;"	v
+flag2	drive/timer.h	/^volatile unsigned int count2,flag2;$/;"	v
+flag3	drive/timer.h	/^volatile unsigned int count3,flag3;$/;"	v
+flagRed	main/init.h	/^	unsigned char flagRed;			\/\/ 红色区域标志位$/;"	m	struct:VEHICLE
+getFriendStatus	main/comn.c	/^unsigned char getFriendStatus() $/;"	f
+globalVarInit	main/init.c	/^void globalVarInit(void)$/;"	f
+goOnSpeed	drive/motor.c	/^void goOnSpeed(int speed) $/;"	f
+goToMiddle	main/fight.c	/^void goToMiddle()$/;"	f
+head	main/comn.c	/^	unsigned char head;$/;"	m	struct:QUEUE	file:
+i	main/menu.c	/^int i;$/;"	v
+id	drive/ppm.c	/^	INT8U id;$/;"	m	struct:__anon1	file:
+id	drive/ppm_low.c	/^	INT8U id;$/;"	m	struct:__anon3	file:
+id	main/comn.h	/^	unsigned char id;$/;"	m	struct:FRIEND
+ifInRed	main/update.c	/^void ifInRed(void)$/;"	f
+init_device	main/init.c	/^void init_device(void)$/;"	f
+init_watch_dog	drive/watch_dog.c	/^void init_watch_dog(void)\/\/初始化看门狗,用汇编才能保证看门狗在4个时钟周期内操作完成$/;"	f
+io_b	main/update.h	/^	INT8U io_b;$/;"	m	struct:SENSOR
+io_bl	main/update.h	/^	INT8U io_bl;$/;"	m	struct:SENSOR
+io_bld	main/update.h	/^	INT8U io_bld;$/;"	m	struct:SENSOR
+io_br	main/update.h	/^	INT8U io_br;$/;"	m	struct:SENSOR
+io_brd	main/update.h	/^	INT8U io_brd;$/;"	m	struct:SENSOR
+io_f	main/update.h	/^	INT8U io_f;			\/\/ 前，红外IO传感器状态值变量$/;"	m	struct:SENSOR
+io_fl	main/update.h	/^	INT8U io_fl;		\/\/ 前左$/;"	m	struct:SENSOR
+io_fld	main/update.h	/^	INT8U io_fld;		\/\/ 前左斜向下$/;"	m	struct:SENSOR
+io_fr	main/update.h	/^	INT8U io_fr;$/;"	m	struct:SENSOR
+io_frd	main/update.h	/^	INT8U io_frd;$/;"	m	struct:SENSOR
+io_l	main/update.h	/^	INT8U io_l;$/;"	m	struct:SENSOR
+io_r	main/update.h	/^	INT8U io_r;$/;"	m	struct:SENSOR
+locEnemy	main/init.h	/^	unsigned char locEnemy; 		\/\/ 敌人的位置$/;"	m	struct:VEHICLE
+locEnemyLast	main/init.h	/^	unsigned char locEnemyLast;		\/\/ 上一次敌人的位置$/;"	m	struct:VEHICLE
+locFriend	main/init.h	/^	unsigned char locFriend;		\/\/ 友方的位置$/;"	m	struct:VEHICLE
+main	main/main.c	/^int main()$/;"	f
+menu	main/menu.c	/^void menu() $/;"	f
+minGreyTrack0	main/menu.h	/^int minGreyTrack0;			\/\/ 轨道0最小灰度$/;"	v
+minGreyTrack0_ADD	main/menu.h	19;"	d
+minGreyTrack1	main/menu.h	/^int minGreyTrack1;			\/\/ 轨道1最小灰度$/;"	v
+minGreyTrack1_ADD	main/menu.h	20;"	d
+minGreyTrack2	main/menu.h	/^int minGreyTrack2;			\/\/ 轨道2最小灰度$/;"	v
+minGreyTrack2_ADD	main/menu.h	21;"	d
+myFriend	main/comn.h	/^}myFriend;$/;"	v	typeref:struct:FRIEND
+myId	main/comn.c	187;"	d	file:
+mytimer_init	drive/timer.c	/^void mytimer_init(void)$/;"	f
+myuart_init	drive/uart.c	/^void myuart_init(void)$/;"	f
+noEnemy	main/fight.c	/^void noEnemy() $/;"	f
+noEnemy_BACK_ENEMY	main/fight.c	/^void noEnemy_BACK_ENEMY()$/;"	f
+noEnemy_LEFT_ENEMY	main/fight.c	/^void noEnemy_LEFT_ENEMY() {$/;"	f
+noEnemy_RIGHT_ENEMY	main/fight.c	/^void noEnemy_RIGHT_ENEMY() {$/;"	f
+packDanger	main/comn.c	/^ void packDanger()$/;"	f
+packData	main/comn.c	/^ void packData()$/;"	f
+ppm	drive/ppm.c	/^volatile SPpm ppm;$/;"	v
+ppm	drive/ppm_low.c	/^volatile SPpm ppm;$/;"	v
+ppms	drive/ppm.c	/^	SPpmState ppms[MAX_PPM];$/;"	m	struct:__anon2	file:
+ppms	drive/ppm_low.c	/^	SPpmState ppms[MAX_PPM];$/;"	m	struct:__anon4	file:
+printData	main/comn.c	/^void printData()$/;"	f
+printMessage	main/menu.c	/^void printMessage() $/;"	f
+pushChess	main/move.c	/^void pushChess()$/;"	f
+queue	main/comn.c	/^} queue;$/;"	v	typeref:struct:QUEUE
+queue_append	main/comn.c	/^void queue_append(unsigned char buf) $/;"	f
+queue_empty	main/comn.c	/^unsigned char queue_empty() $/;"	f
+queue_full	main/comn.c	/^unsigned char queue_full() $/;"	f
+queue_init	main/comn.c	/^unsigned char queue_init() $/;"	f
+queue_out_char	main/comn.c	/^unsigned char queue_out_char() $/;"	f
+queue_out_chars	main/comn.c	/^unsigned char queue_out_chars(unsigned char* buf, unsigned char num) $/;"	f
+quickSort	main/menu.c	/^void quickSort(int *a, int i, int j) $/;"	f
+read_adc	drive/adc.c	/^unsigned char read_adc(INT8U ch,INT16U *ad)$/;"	f
+read_adc2	drive/adc.c	/^int read_adc2(INT8U ch){$/;"	f
+ready	main/init.c	/^void ready()$/;"	f
+refresh_stage_AD	main/menu.c	/^void refresh_stage_AD()$/;"	f
+select	main/menu.c	/^char select;$/;"	v
+sendOrder	drive/motor.c	/^void sendOrder(int node, char* instruction, char* parameter)$/;"	f
+sensor	main/update.h	/^}sensor;$/;"	v	typeref:struct:SENSOR
+servo_action_now	drive/servo.c	/^void servo_action_now(INT8U id,INT16U location,INT16U speed)\/\/同步指令，舵机立刻动作$/;"	f
+setCornerRation	main/menu.c	/^void setCornerRation()$/;"	f
+setLocFriend	main/comn.c	/^void setLocFriend(unsigned char locFriend)$/;"	f
+setMemoryCycle	main/menu.c	/^void setMemoryCycle()$/;"	f
+setMotor	main/menu.c	/^void setMotor()$/;"	f
+setNatureSpeed	drive/motor.c	/^void setNatureSpeed(int node, int minSpeed, int maxSpeed) $/;"	f
+setPush	main/menu.c	/^void setPush()$/;"	f
+setReady	main/menu.c	/^void setReady()$/;"	f
+setSpeed	drive/motor.c	/^void setSpeed(int speedL, int speedR)$/;"	f
+setSpeedRation	drive/motor.c	/^void setSpeedRation(int node, int acceleration, int deceleration) $/;"	f
+setStateCycle	main/menu.c	/^void setStateCycle()$/;"	f
+setTarLocation	drive/motor.c	/^void setTarLocation(int node, char* tarLocation, int flag)$/;"	f
+setTarSpeed	drive/motor.c	/^void setTarSpeed(int node, int tarSpeed) $/;"	f
+setZeroLocation	drive/motor.c	/^void setZeroLocation(int node)$/;"	f
+size	drive/ppm.c	/^	INT8U size;$/;"	m	struct:__anon2	file:
+size	drive/ppm_low.c	/^	INT8U size;$/;"	m	struct:__anon4	file:
+state	drive/ppm.c	/^	INT8U state;$/;"	m	struct:__anon2	file:
+state	drive/ppm_low.c	/^	INT8U state;$/;"	m	struct:__anon4	file:
+statusMatch	main/comn.c	/^void statusMatch()$/;"	f
+t	drive/ppm.c	/^INT16U t;$/;"	v
+t	drive/ppm_low.c	/^INT16U t;$/;"	v
+track	main/comn.h	/^	unsigned char track;$/;"	m	struct:FRIEND
+track	main/init.h	/^	unsigned char track;			\/\/ 轨道$/;"	m	struct:VEHICLE
+trackCode	main/update.h	/^	INT8U trackCode;	\/\/ 根据灰度值进行轨道编码$/;"	m	struct:SENSOR
+trackSimplify	main/comn.c	/^unsigned char trackSimplify(unsigned char track)$/;"	f
+turnOnSpeed	drive/motor.c	/^void turnOnSpeed(int speed)$/;"	f
+txData	main/comn.c	/^ void txData()$/;"	f
+uart1_get_char	drive/uart.c	/^unsigned char uart1_get_char(void)$/;"	f
+uart1_put_char	drive/uart.c	/^void uart1_put_char( unsigned char data)\/\/发送字节$/;"	f
+uart1_put_hex	drive/uart.c	/^void uart1_put_hex(int data) $/;"	f
+uart1_put_int	drive/uart.c	/^void uart1_put_int(int num)$/;"	f
+uart1_put_str	drive/uart.c	/^void uart1_put_str(char * str)\/\/发送一个字符串$/;"	f
+uart_put_char	drive/uart.c	/^void uart_put_char( unsigned char data)\/\/发送字节$/;"	f
+uart_put_str	drive/uart.c	/^void uart_put_str(char * str)\/\/发送一个字符串$/;"	f
+updateDir	main/update.c	/^void updateDir(void)$/;"	f
+updateTrack	main/update.c	/^void updateTrack(void)$/;"	f
+us	drive/ppm.c	/^	INT16U us;\/\/保持高电平时间$/;"	m	struct:__anon1	file:
+us	drive/ppm_low.c	/^	INT16U us;\/\/保持高电平时间$/;"	m	struct:__anon3	file:
+vehicle	main/init.h	/^} vehicle; $/;"	v	typeref:struct:VEHICLE
+walkInTrack1	main/fight.c	/^void walkInTrack1()$/;"	f
